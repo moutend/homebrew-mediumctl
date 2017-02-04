@@ -1,16 +1,16 @@
 class Mediumctl < Formula
   desc 'CLI tool for publishing an article to Medium'
   homepage 'https://github.com/moutend/mediumctl'
-  version 'v0.2.1'
+  version 'v0.2.2'
 
   if Hardware::CPU.is_64_bit?
-    @@binname = 'mediumctl_darwin_amd64_v0.2.1'
-    url 'https://github.com/moutend/mediumctl/releases/download/v0.2.1/' << @@binname
-    sha256 'c5c0c1efa3307fcf140f879fba9dcb34ce7c6fda02e9ed8a116b719b4c9a39b2'
+    @@binname = 'mediumctl_darwin_amd64_v0.2.2'
+    url 'https://github.com/moutend/mediumctl/releases/download/v0.2.2/' << @@binname
+    sha256 'b1a9a0ade3b364443ca612310c99f5f8d70bcfccd5f97181b04136288c641428'
   else
-    @@binname = 'mediumctl_darwin_386_v0.2.1'
-    url 'https://github.com/moutend/mediumctl/releases/download/v0.2.1/' << @@binname
-    sha256 'd90d3bb27ffafc322e62db05a4d4b97d92685ee872ebc6955e5e0e869bedd68e'
+    @@binname = 'mediumctl_darwin_386_v0.2.2'
+    url 'https://github.com/moutend/mediumctl/releases/download/v0.2.2/' << @@binname
+    sha256 'c4cd576320cf799134ae7dfeee73b34a9be39657b217a29fa30510fd199cf483'
   end
 
   def install
