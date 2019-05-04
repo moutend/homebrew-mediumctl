@@ -6,11 +6,11 @@ class Mediumctl < Formula
   if Hardware::CPU.is_64_bit?
     @@binname = 'mediumctl_darwin_amd64_v0.4.0'
     url 'https://github.com/moutend/mediumctl/releases/download/v0.4.0/' << @@binname
-    sha256 '708ab8f7f9872004ec4af2d95d70da72f565635b3fc757f8057e49a5a59569fe'
+    sha256 'c884109d628102c14e0725483fd6238ed41c179008a42c8632dcf174b08087ac'
   else
     @@binname = 'mediumctl_darwin_386_v0.4.0'
     url 'https://github.com/moutend/mediumctl/releases/download/v0.4.0/' << @@binname
-    sha256 '41320fbe77e0b539cadb3e4c98581c502b44b7748fccb5b1e5b2322d1e9a4bca'
+    sha256 '7cdc233858d81e52098eb868c97208de5fa13e0145cdeb6cd7745d213b011702'
   end
 
   def install
